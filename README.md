@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# 7 Up 7 Down Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple 7 Up 7 Down dice game built using React for the frontend and Node.js with Express for the backend.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [7 Up 7 Down Game](#7-up-7-down-game)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+    - [Backend Setup](#backend-setup)
+    - [Frontend Setup](#frontend-setup)
+  - [Running the Application](#running-the-application)
+  - [Usage](#usage)
+  - [Technologies Used](#technologies-used)
+  - [Contributing](#contributing)
+  - [License](#license)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project implements a simple 7 Up 7 Down game where a player can bet on the outcome of a dice roll. The player starts with 5000 points and can place bets on whether the sum of the dice will be below 7, exactly 7, or above 7. The game provides different multipliers for winning bets.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- User starts with 5000 points.
+- User can bet on three options: 7 Up, 7 Down, or Lucky 7.
+- User can place bets of 100, 200, or 500 points.
+- Random dice results are generated via an API.
+- The user's points are updated based on the outcome of the dice roll.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequisites
 
-### `npm run build`
+Make sure you have the following installed on your system:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v14 or later)
+- npm (v6 or later)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow these steps to set up and run the project locally after pulling from GitHub.
 
-### `npm run eject`
+### Backend Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/seven-up.git
+   cd seven-up
+2. Navigate to the server directory:
+   ```sh
+   cd server
+3. Install the backend dependencies:
+   ```sh
+   npm install
+4. Start the backend server:
+   ```sh
+   node index.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Frontend Setup
+Frontend Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Navigate to the client directory:
+   ```sh
+   cd ../
+2. Install the frontend dependencies:
+   ```sh
+   npm install
+3. Start the frontend development server:
+   ```sh
+   npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The frontend application will start and open in your default browser at http://localhost:3000.
 
-## Learn More
+### Running the Application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Ensure that both the backend server and the frontend development server are running.
+    Open your web browser and navigate to http://localhost:3000.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Usage
 
-### Code Splitting
+    The game starts with 5000 points.
+    Select a bet amount from the available options (100, 200, 500).
+    Choose one of the three betting options: 7 Up, 7 Down, or Lucky 7.
+    Click the "Roll Dice" button to roll the dice.
+    The result will be displayed, and your points will be updated based on the outcome.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Technologies Used
 
-### Analyzing the Bundle Size
+    Frontend: React, Material-UI, Axios
+    Backend: Node.js, Express
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size).
+### Contributing
 
-### Making a Progressive Web App
+Contributions are welcome! Please open an issue or submit a pull request for any changes or improvements.
+License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the LICENSE file for details.
