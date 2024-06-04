@@ -44,20 +44,20 @@ Follow these steps to set up and run the project locally after pulling from GitH
 ### Backend Setup
 
 1. Clone the repository:
-   ```sh
+   ```bash
    git clone https://github.com/yourusername/seven-up.git
    cd seven-up
    ```
 2. Navigate to the server directory:
-   ```sh
+   ```bash
    cd server
    ```
 3. Install the backend dependencies:
-   ```sh
+   ```bash
    npm install
    ```
 4. Start the backend server:
-   ```sh
+   ```bash
    node index.js
    ```
 
@@ -66,37 +66,37 @@ Follow these steps to set up and run the project locally after pulling from GitH
 Frontend Setup
 
 1. Navigate to the client directory:
-   ```sh
+   ```bash
    cd ../
    ```
 2. Install the frontend dependencies:
-   ```sh
+   ```bash
    npm install
    ```
 3. Start the frontend development server:
-   ```sh
+   ```bash
    npm start
    ```
-   
+
 The frontend application will start and open in your default browser at http://localhost:3000.
 
 ### Running the Application
 
-    Ensure that both the backend server and the frontend development server are running.
-    Open your web browser and navigate to http://localhost:3000.
+Ensure that both the backend server and the frontend development server are running.
+Open your web browser and navigate to http://localhost:3000.
 
 ### Usage
 
-    The game starts with 5000 points.
-    Select a bet amount from the available options (100, 200, 500).
-    Choose one of the three betting options: 7 Up, 7 Down, or Lucky 7.
-    Click the "Roll Dice" button to roll the dice.
-    The result will be displayed, and your points will be updated based on the outcome.
+The game starts with 5000 points.
+Select a bet amount from the available options (100, 200, 500).
+Choose one of the three betting options: 7 Up, 7 Down, or Lucky 7.
+Click the "Roll Dice" button to roll the dice.
+The result will be displayed, and your points will be updated based on the outcome.
 
 ### Technologies Used
 
-    Frontend: React, Material-UI, Axios
-    Backend: Node.js, Express
+Frontend: React, Material-UI, Axios
+Backend: Node.js, Express
 
 ### Contributing
 
