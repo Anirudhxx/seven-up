@@ -47,29 +47,37 @@ Follow these steps to set up and run the project locally after pulling from GitH
    ```sh
    git clone https://github.com/yourusername/seven-up.git
    cd seven-up
+   ```
 2. Navigate to the server directory:
    ```sh
    cd server
+   ```
 3. Install the backend dependencies:
    ```sh
    npm install
+   ```
 4. Start the backend server:
    ```sh
    node index.js
+   ```
 
 ### Frontend Setup
+
 Frontend Setup
 
 1. Navigate to the client directory:
    ```sh
    cd ../
+   ```
 2. Install the frontend dependencies:
    ```sh
    npm install
+   ```
 3. Start the frontend development server:
    ```sh
    npm start
-
+   ```
+   
 The frontend application will start and open in your default browser at http://localhost:3000.
 
 ### Running the Application
