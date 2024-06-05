@@ -41,7 +41,7 @@ function App() {
 
   const handleRollDice = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/api/roll-dice', {
+      const response = await axios.post('https://seven-up-server-latest.onrender.com/api/roll-dice', {
         betAmount,
         betOption,
       });
